@@ -1,0 +1,10 @@
+VOCAB_SIZE = 5000     # Petit vocab
+EMBED_DIM = 96        # Layers minuscules
+NUM_HEADS = 3         # Moins têtes
+NUM_LAYERS = 4        # 3 couches seulement
+DROPOUT = 0.1
+LEARNING_RATE = 1e-3  # Plus agressif
+BATCH_SIZE = 4
+BLOCK_SIZE = 128       # Très petit
+EPOCHS = 1000          # ~8min
+MAX_SEQ_LEN = 128

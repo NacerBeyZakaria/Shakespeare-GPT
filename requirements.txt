@@ -1,0 +1,6 @@
+torch>=2.0.0
+tokenizers>=0.13.0
+tqdm
+numpy
+transformers  # For evaluation tokenizer if needed
+streamlit
